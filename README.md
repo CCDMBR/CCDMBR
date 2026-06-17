@@ -27,6 +27,15 @@ This is our implementation for the paper: Cascade-Conditioned Diffusion Model fo
 All the parameters are in `./config.py`
 
 ## Supplementary Experiments
+
+| Models       | BeiBei HR@10 | BeiBei HR@20 | BeiBei NDCG@10 | BeiBei NDCG@20 | Tmall HR@10 | Tmall HR@20 | Tmall NDCG@10 | Tmall NDCG@20 | IJCAI HR@10 | IJCAI HR@20 | IJCAI NDCG@10 | IJCAI NDCG@20 |
+|------------|--------------|--------------|----------------|----------------|-------------|-------------|---------------|---------------|-------------|-------------|---------------|---------------|
+| MBSTR 2022 | 0.0437       | 0.0742       | 0.0233         | 0.0294         | 0.0281      | 0.0396      | 0.0169        | 0.0245        | 0.0079      | 0.0125      | 0.0037        | 0.0046        |
+| HMAR 2024  | 0.0442       | 0.0721       | 0.0241         | 0.0317         | 0.0312      | 0.0435      | 0.0204        | 0.0226        | 0.0158      | 0.0193      | 0.0086        | 0.01046       |
+| MBSRec 2024| 0.0453       | 0.0772       | 0.0225         | 0.0303         | 0.0308      | 0.0467      | 0.0202        | 0.0241        | 0.0301      | 0.0329      | 0.0175        | 0.0202        |
+| CCDMBR     | 0.0703       | 0.1063       | 0.0357         | 0.0451         | 0.0827      | 0.0978      | 0.0575        | 0.0613        | 0.0756      | 0.0907      | 0.0512        | 0.0548        |
+
+
 We conducted significance tests between CCDMBR and the strongest baseline statistically, and ★ marked the results where CCDMBR significantly outperforms the best baseline with p-value<0.05 under t-test. The results are shown below: 
 | Model | BeiBei HR@10 | BeiBei HR@20 | BeiBei NDCG@10 | BeiBei NDCG@20 | Tmall HR@10 | Tmall HR@20 | Tmall NDCG@10 | Tmall NDCG@20 | IJCAI HR@10 | IJCAI HR@20 | IJCAI NDCG@10 | IJCAI NDCG@20 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
